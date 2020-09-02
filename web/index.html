@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="skillbox_fb_test">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>skillbox_fb_test</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBS8mnUMAUOoWO4GI5YABLl6Gmlxqd_1vY",
+      authDomain: "skillbranch-fb-test.firebaseapp.com",
+      databaseURL: "https://skillbranch-fb-test.firebaseio.com",
+      projectId: "skillbranch-fb-test",
+      storageBucket: "skillbranch-fb-test.appspot.com",
+      messagingSenderId: "260860667895",
+      appId: "1:260860667895:web:d6e5e2f1548ad2f9ecf0f2",
+      measurementId: "G-YRE3SKJSEQ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <!-- END OF FIREBASE INIT CODE -->
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>260860667895-rd3sedp18og32gqv5e8tbkeqp5cam2ig.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.260860667895-rd3sedp18og32gqv5e8tbkeqp5cam2ig</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>260860667895-ki7eeea2it3nibcm9hsph45v7mpss0dl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDuCVC6oQkvOvnxUbFR3h_5PFDGHgbEzWo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>260860667895</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.skillboxFbTest</string>
+	<key>PROJECT_ID</key>
+	<string>skillbranch-fb-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skillbranch-fb-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:260860667895:ios:69fa49e2534cecf8ecf0f2</string>
+	<key>DATABASE_URL</key>
+	<string>https://skillbranch-fb-test.firebaseio.com</string>
+</dict>
+</plist>
